@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: #0d1521;
+    font-family: tahoma;
+    color: #989898;
+}
+
+#Logo_marte{
+    width: 45px;
+    background: #0d1521;
+    margin-left: 1311px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#Container{
+    width: 1288px;
+    height: 690px;
+    margin-left: 39px;
+    margin-top: 18px; /*centrado-->39px*/
+    position: absolute;
+}
+
+#Cameras_container{
+    width: 624px;
+    height: 100%;
+    background: #d8d8d8; 
+    margin-left: 0px;
+    float: left;
+    position: static;
+}
+
+#canvas0{
+    width: 622px;
+    height: 551px;
+    background: #3deb1a;
+    border: solid #000000;
+    border-width: 1px 1px 0px 1px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+#canvas1{
+    width: 155px;
+    height: 136px;
+    background: #3649f0;
+    border: solid #000000;
+    border-width: 1px 0px 1px 1px;
+    margin-left: 0px;
+    margin-top: 552px;
+    position: absolute;
+}
+
+#canvas2{
+    width: 155px;
+    height: 136px;
+    background: #f7e929;
+    border: solid #000000;
+    border-width: 1px 0px 1px 1px;
+    margin-left: 156px;
+    margin-top: 552px;
+    position: absolute;
+}
+
+#canvas3{
+    width: 155px;
+    height: 136px;
+    background: #9900ff;
+    border: solid #000000;
+    border-width: 1px 0px 1px 1px;
+    margin-left: 312px;
+    margin-top: 552px;
+    position: absolute;
+}
+
+#canvas4{
+    width: 154px;
+    height: 136px;
+    background: #d81212;
+    border: 1px solid black;
+    margin-left: 468px;
+    margin-top: 552px;
+    position: absolute;
+}
+
+#Data_container{
+    width: 624px;
+    height: 100%;
+    /*background: #d8d8d8;*/
+    margin-left: 40px;
+    float: right;
+    position: static;
+}
+
+#Robot_name{
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: static;
+    /*background: #0d1521;*/
+    border: 0;
+    color: #fff;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.Robot_info{
+    width: 100%;
+    height: 295px;
+    background: #d8d8d8;
+    position: static;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.Robot_info div{
+    width: 100%;
+    height: 100%;
+    background: #23282e;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.Info{
+    display: grid;
+    grid-template-columns: 46% 54%;
+    grid-template-rows: 20% 30% 20% 30%;
+}
+
+.Info div{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    text-align: center;
+}
+
+.Info_title{
+    color: white;
+    line-height: 60px;
+}
+
+.Info_incli{
+    line-height: 80px;
+    display: grid;
+    grid-template-columns: 18% 82%;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#battery:after {
+    background-color: #fff;
+    border: 2px solid #000;
+    content: "";
+    display: block;
+    height: 24px;
+    position: absolute;
+    right: -6px;
+    top: 6px;
+    width: 6px;
+}
+
+#battery {
+    background-color: #fff;
+    border: 2px solid #000;
+    height: 40px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    position: relative;    
+}
+
+#battery_level_container {
+    height: 100%;
+    width: 0%;
+    border-right: 1px solid #000;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: black;
+}
+
+#Robot_control{
+    width: 624px;
+    height: 345px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    text-align: center;
+    background: #23282e;
+}
+
+#Xbox_control{
+    width: 276px;
+    height: 171px;
+    margin-top: 87px;
+    position: relative;
+}
+
+#controlOutput{
+    width: 70%;
+    height: 25px;
+    background-color: #23282e;
+    margin-left: 15%;
+    margin-top: 725px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+}
+
+/*input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background:#181c22;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #989898;
+}
+
+#Logo{
+    align-items: center;
+    line-height: 120px;
+}
+
+button{
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}*/
