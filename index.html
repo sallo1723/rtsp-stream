@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="public/assets/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts/three.js"></script>
+    <title>Rtsp-stream</title>
+</head>
+
+<body>
+  <img id="Logo_marte" src="public/assets/logo.png">
+
+  <div id="Container">
+
+    <div id="Cameras_container">
+      <canvas id="canvas0"></canvas>
+      <canvas id="canvas1"></canvas>
+      <canvas id="canvas2"></canvas>
+      <canvas id="canvas3"></canvas>
+      <canvas id="canvas4"></canvas>
+    </div>
+
+    <div id="Data_container">
+      <div id="Robot_name">
+        <strong>DeminANT</strong>
+      </div>
+      <div class="Robot_info">
+        <div class="Info">
+          <div class="Info_title"><strong>Inclinación en x</strong></div>
+          <div class="Info_title"><strong>Inclinación en y</strong></div>
+          <div class="Info_incli">
+            <div id="inclination_roll">0°</div>
+            <div>
+              <img id="Front_view" src="public/assets/Front_deminant.png" width="70" height="60">
+            </div>
+          </div>
+          <div class="Info_incli">
+            <div id="inclination_pitch">0°</div>
+            <div>
+              <img id="Right_view" src="public/assets/Right_deminant.png" width="150" height="55">
+            </div>
+          </div>
+          <div class="Info_title"><strong>Módulos conectados</strong></div>
+          <div class="Info_title"><strong>Estado de la batería</strong></div>
+          <div id="modulos" style="line-height: normal;">
+            <p>Brazo<br/>Gripper<br/>Desminador</p>
+          </div>
+          <div>
+            <div id="battery">
+              <div id="battery_level_container">
+                  <p id="battery_percentage"></p>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div id="3dmodel_container">
+        </div>
+      </div>
+      <div id="Robot_control">
+        <img id="Xbox_control" src="public/assets/xbox_control.png">
+      </div>
+    </div>
+
+  </div>
+
+  <div id="controlOutput"></div>
+  
+  <script type="text/javascript" src="scripts/jsmpeg.min.js"></script>
+  <script type="text/javascript" src="scripts/index.js"></script>
+  
+</body>
+</html>
